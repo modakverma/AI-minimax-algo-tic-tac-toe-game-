@@ -1,0 +1,46 @@
+td{
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 80px;
+}
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:last-child{
+    border-right: 0;
+}
+table tr td:first-child{
+    border-left: 0;
+}
+.endgame{
+display: none;
+width:200px;
+top: 200px;
+background-color: rgb(237, 91, 13);
+position: absolute;
+left: 50%;
+margin-left: -100px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+opacity: 0.7;
+text-align: center;
+border-radius: 4px;
+color: #fff;
+font-size: 2vmax;
+}
